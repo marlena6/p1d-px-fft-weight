@@ -1,0 +1,404 @@
+000 (560221.000.000) 2025-03-05 11:56:03 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (560221.000.000) 2025-03-05 11:56:11 Finished transferring input files
+...
+001 (560221.000.000) 2025-03-05 11:56:11 Job executing on host: <192.168.102.10:9618?addrs=192.168.102.10-9618+[2001-67c-1148-301--10]-9618&alias=tdm003.pic.es&noUDP&sock=startd_119346_01f8>
+	SlotName: slot1_36@tdm003.pic.es
+	CondorScratchDir = "/home/execute/dir_568458"
+	Cpus = 1
+	Disk = 16495219
+	Memory = 102400
+...
+006 (560221.000.000) 2025-03-05 11:56:24 Image size of job updated: 11408
+	11  -  MemoryUsage of job (MB)
+	10584  -  ResidentSetSize of job (KB)
+...
+006 (560221.000.000) 2025-03-05 11:56:36 Image size of job updated: 61352
+	11  -  MemoryUsage of job (MB)
+	10860  -  ResidentSetSize of job (KB)
+...
+040 (560221.000.000) 2025-03-05 11:56:36 Started transferring output files
+...
+040 (560221.000.000) 2025-03-05 11:56:36 Finished transferring output files
+...
+005 (560221.000.000) 2025-03-05 11:56:36 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:08, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:08, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3948  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	3948  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       18 15728640  16495219 
+	   Memory (MB)          :       11   102400    102400 
+
+	Job terminated of its own accord at 2025-03-05T10:56:36Z with exit-code 1.
+...
+000 (560231.000.000) 2025-03-05 12:15:12 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (560231.000.000) 2025-03-05 12:15:34 Finished transferring input files
+...
+001 (560231.000.000) 2025-03-05 12:15:34 Job executing on host: <192.168.102.10:9618?addrs=192.168.102.10-9618+[2001-67c-1148-301--10]-9618&alias=tdm003.pic.es&noUDP&sock=startd_119346_01f8>
+	SlotName: slot1_36@tdm003.pic.es
+	CondorScratchDir = "/home/execute/dir_722558"
+	Cpus = 1
+	Disk = 16495219
+	Memory = 102400
+...
+006 (560231.000.000) 2025-03-05 12:15:47 Image size of job updated: 388464
+	380  -  MemoryUsage of job (MB)
+	388464  -  ResidentSetSize of job (KB)
+...
+006 (560231.000.000) 2025-03-05 12:16:36 Image size of job updated: 1087316
+	380  -  MemoryUsage of job (MB)
+	388464  -  ResidentSetSize of job (KB)
+...
+040 (560231.000.000) 2025-03-05 12:16:36 Started transferring output files
+...
+040 (560231.000.000) 2025-03-05 12:16:36 Finished transferring output files
+...
+005 (560231.000.000) 2025-03-05 12:16:36 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:22, Sys 0 00:00:14  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:14  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5388  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	5388  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.49        1         1 
+	   Disk (KB)            :    27    15728640  16495219 
+	   Memory (MB)          :   380      102400    102400 
+
+	Job terminated of its own accord at 2025-03-05T11:16:36Z with exit-code 1.
+...
+000 (560239.000.000) 2025-03-05 12:45:14 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (560239.000.000) 2025-03-05 12:45:30 Finished transferring input files
+...
+001 (560239.000.000) 2025-03-05 12:45:30 Job executing on host: <192.168.102.10:9618?addrs=192.168.102.10-9618+[2001-67c-1148-301--10]-9618&alias=tdm003.pic.es&noUDP&sock=startd_119346_01f8>
+	SlotName: slot1_36@tdm003.pic.es
+	CondorScratchDir = "/home/execute/dir_958822"
+	Cpus = 1
+	Disk = 16495219
+	Memory = 102400
+...
+006 (560239.000.000) 2025-03-05 12:45:44 Image size of job updated: 1297172
+	1267  -  MemoryUsage of job (MB)
+	1297172  -  ResidentSetSize of job (KB)
+...
+006 (560239.000.000) 2025-03-05 12:47:00 Image size of job updated: 6970132
+	1267  -  MemoryUsage of job (MB)
+	1297172  -  ResidentSetSize of job (KB)
+...
+040 (560239.000.000) 2025-03-05 12:47:00 Started transferring output files
+...
+040 (560239.000.000) 2025-03-05 12:47:00 Finished transferring output files
+...
+005 (560239.000.000) 2025-03-05 12:47:00 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:22, Sys 0 00:00:26  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:26  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4122  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	4122  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.34        1         1 
+	   Disk (KB)            :    25    15728640  16495219 
+	   Memory (MB)          :  1267      102400    102400 
+
+	Job terminated of its own accord at 2025-03-05T11:47:00Z with exit-code 1.
+...
+000 (560479.000.000) 2025-03-05 12:54:53 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (560479.000.000) 2025-03-05 12:55:02 Finished transferring input files
+...
+001 (560479.000.000) 2025-03-05 12:55:02 Job executing on host: <192.168.102.10:9618?addrs=192.168.102.10-9618+[2001-67c-1148-301--10]-9618&alias=tdm003.pic.es&noUDP&sock=startd_119346_01f8>
+	SlotName: slot1_36@tdm003.pic.es
+	CondorScratchDir = "/home/execute/dir_1034176"
+	Cpus = 1
+	Disk = 16495219
+	Memory = 102400
+...
+006 (560479.000.000) 2025-03-05 12:55:16 Image size of job updated: 1198944
+	1171  -  MemoryUsage of job (MB)
+	1198944  -  ResidentSetSize of job (KB)
+...
+006 (560479.000.000) 2025-03-05 12:56:30 Image size of job updated: 7200892
+	1171  -  MemoryUsage of job (MB)
+	1198944  -  ResidentSetSize of job (KB)
+...
+040 (560479.000.000) 2025-03-05 12:56:30 Started transferring output files
+...
+040 (560479.000.000) 2025-03-05 12:56:30 Finished transferring output files
+...
+005 (560479.000.000) 2025-03-05 12:56:30 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:22, Sys 0 00:00:25  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:22, Sys 0 00:00:25  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4794  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	4794  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.58        1         1 
+	   Disk (KB)            :    26    15728640  16495219 
+	   Memory (MB)          :  1171      102400    102400 
+
+	Job terminated of its own accord at 2025-03-05T11:56:30Z with exit-code 1.
+...
+000 (560550.000.000) 2025-03-05 13:35:26 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (560550.000.000) 2025-03-05 13:35:47 Finished transferring input files
+...
+001 (560550.000.000) 2025-03-05 13:35:47 Job executing on host: <192.168.102.9:9618?addrs=192.168.102.9-9618+[2001-67c-1148-301--9]-9618&alias=tdm002.pic.es&noUDP&sock=startd_2346_bd45>
+	SlotName: slot1_2@tdm002.pic.es
+	CondorScratchDir = "/home/execute/dir_1675229"
+	Cpus = 1
+	Disk = 15975720
+	Memory = 102400
+...
+006 (560550.000.000) 2025-03-05 13:36:01 Image size of job updated: 587696
+	574  -  MemoryUsage of job (MB)
+	587696  -  ResidentSetSize of job (KB)
+...
+006 (560550.000.000) 2025-03-05 13:41:02 Image size of job updated: 43623272
+	3080  -  MemoryUsage of job (MB)
+	3152944  -  ResidentSetSize of job (KB)
+...
+006 (560550.000.000) 2025-03-05 13:46:02 Image size of job updated: 43623324
+	4280  -  MemoryUsage of job (MB)
+	4382168  -  ResidentSetSize of job (KB)
+...
+006 (560550.000.000) 2025-03-05 13:51:03 Image size of job updated: 43623324
+	15986  -  MemoryUsage of job (MB)
+	16369600  -  ResidentSetSize of job (KB)
+...
+040 (560550.000.000) 2025-03-05 13:52:13 Started transferring output files
+...
+040 (560550.000.000) 2025-03-05 13:52:13 Finished transferring output files
+...
+005 (560550.000.000) 2025-03-05 13:52:13 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:02, Sys 0 00:02:33  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:02, Sys 0 00:02:33  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	2820  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	2820  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.59        1         1 
+	   Disk (KB)            :    24    15728640  15975720 
+	   Memory (MB)          : 15986      102400    102400 
+
+	Job terminated of its own accord at 2025-03-05T12:52:13Z with exit-code 0.
+...
+000 (573756.000.000) 2025-03-11 14:01:47 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (573756.000.000) 2025-03-11 14:02:07 Finished transferring input files
+...
+001 (573756.000.000) 2025-03-11 14:02:07 Job executing on host: <192.168.102.9:9618?addrs=192.168.102.9-9618+[2001-67c-1148-301--9]-9618&alias=tdm002.pic.es&noUDP&sock=startd_2346_bd45>
+	SlotName: slot1_7@tdm002.pic.es
+	CondorScratchDir = "/home/execute/dir_987498"
+	Cpus = 1
+	Disk = 15975720
+	Memory = 102400
+...
+006 (573756.000.000) 2025-03-11 14:02:21 Image size of job updated: 19196
+	19  -  MemoryUsage of job (MB)
+	19196  -  ResidentSetSize of job (KB)
+...
+006 (573756.000.000) 2025-03-11 14:07:22 Image size of job updated: 22412048
+	21887  -  MemoryUsage of job (MB)
+	22412048  -  ResidentSetSize of job (KB)
+...
+006 (573756.000.000) 2025-03-11 14:12:23 Image size of job updated: 32076576
+	31325  -  MemoryUsage of job (MB)
+	32076576  -  ResidentSetSize of job (KB)
+...
+006 (573756.000.000) 2025-03-11 14:17:23 Image size of job updated: 40647464
+	39695  -  MemoryUsage of job (MB)
+	40647464  -  ResidentSetSize of job (KB)
+...
+006 (573756.000.000) 2025-03-11 14:20:43 Image size of job updated: 80948252
+	39695  -  MemoryUsage of job (MB)
+	40647464  -  ResidentSetSize of job (KB)
+...
+040 (573756.000.000) 2025-03-11 14:20:43 Started transferring output files
+...
+040 (573756.000.000) 2025-03-11 14:20:43 Finished transferring output files
+...
+005 (573756.000.000) 2025-03-11 14:20:43 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:02:08, Sys 0 00:01:22  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:08, Sys 0 00:01:22  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3832  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	3832  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.05        1         1 
+	   Disk (KB)            :    25    15728640  15975720 
+	   Memory (MB)          : 39695      102400    102400 
+
+	Job terminated of its own accord at 2025-03-11T13:20:43Z with exit-code 1.
+...
+000 (574185.000.000) 2025-03-11 17:24:44 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (574185.000.000) 2025-03-11 17:24:58 Finished transferring input files
+...
+001 (574185.000.000) 2025-03-11 17:24:58 Job executing on host: <192.168.102.9:9618?addrs=192.168.102.9-9618+[2001-67c-1148-301--9]-9618&alias=tdm002.pic.es&noUDP&sock=startd_2346_bd45>
+	SlotName: slot1_3@tdm002.pic.es
+	CondorScratchDir = "/home/execute/dir_1552094"
+	Cpus = 1
+	Disk = 15975720
+	Memory = 102400
+...
+006 (574185.000.000) 2025-03-11 17:25:12 Image size of job updated: 20836
+	21  -  MemoryUsage of job (MB)
+	20836  -  ResidentSetSize of job (KB)
+...
+006 (574185.000.000) 2025-03-11 17:30:13 Image size of job updated: 56064952
+	54751  -  MemoryUsage of job (MB)
+	56064952  -  ResidentSetSize of job (KB)
+...
+040 (574185.000.000) 2025-03-11 17:36:21 Started transferring output files
+...
+040 (574185.000.000) 2025-03-11 17:36:21 Finished transferring output files
+...
+005 (574185.000.000) 2025-03-11 17:36:21 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:02:23, Sys 0 00:01:20  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:23, Sys 0 00:01:20  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1694  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	1694  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.08        1         1 
+	   Disk (KB)            :    23    15728640  15975720 
+	   Memory (MB)          : 54751      102400    102400 
+
+	Job terminated of its own accord at 2025-03-11T16:36:21Z with exit-code 1.
+...
+000 (574205.000.000) 2025-03-11 17:42:04 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (574205.000.000) 2025-03-11 17:42:18 Finished transferring input files
+...
+001 (574205.000.000) 2025-03-11 17:42:18 Job executing on host: <192.168.102.9:9618?addrs=192.168.102.9-9618+[2001-67c-1148-301--9]-9618&alias=tdm002.pic.es&noUDP&sock=startd_2346_bd45>
+	SlotName: slot1_2@tdm002.pic.es
+	CondorScratchDir = "/home/execute/dir_1573357"
+	Cpus = 1
+	Disk = 15975720
+	Memory = 102400
+...
+006 (574205.000.000) 2025-03-11 17:42:31 Image size of job updated: 23120
+	23  -  MemoryUsage of job (MB)
+	23120  -  ResidentSetSize of job (KB)
+...
+006 (574205.000.000) 2025-03-11 17:47:31 Image size of job updated: 22296732
+	21775  -  MemoryUsage of job (MB)
+	22296732  -  ResidentSetSize of job (KB)
+...
+006 (574205.000.000) 2025-03-11 17:52:32 Image size of job updated: 24900760
+	21775  -  MemoryUsage of job (MB)
+	22296732  -  ResidentSetSize of job (KB)
+...
+006 (574205.000.000) 2025-03-11 17:57:33 Image size of job updated: 24900760
+	23118  -  MemoryUsage of job (MB)
+	23671960  -  ResidentSetSize of job (KB)
+...
+006 (574205.000.000) 2025-03-11 18:02:33 Image size of job updated: 56064844
+	34741  -  MemoryUsage of job (MB)
+	35574500  -  ResidentSetSize of job (KB)
+...
+006 (574205.000.000) 2025-03-11 18:17:35 Image size of job updated: 56064844
+	35636  -  MemoryUsage of job (MB)
+	36490484  -  ResidentSetSize of job (KB)
+...
+006 (574205.000.000) 2025-03-11 18:32:37 Image size of job updated: 56064968
+	35636  -  MemoryUsage of job (MB)
+	36490484  -  ResidentSetSize of job (KB)
+...
+040 (574205.000.000) 2025-03-11 18:37:11 Started transferring output files
+...
+040 (574205.000.000) 2025-03-11 18:37:11 Finished transferring output files
+...
+005 (574205.000.000) 2025-03-11 18:37:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:11:02, Sys 0 00:05:44  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:11:02, Sys 0 00:05:44  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6066  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	6066  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :    27    15728640  15975720 
+	   Memory (MB)          : 35636      102400    102400 
+
+	Job terminated of its own accord at 2025-03-11T17:37:11Z with exit-code 0.
+...
+000 (574887.000.000) 2025-03-11 22:43:52 Job submitted from host: <193.109.174.74:9618?addrs=193.109.174.74-9618&alias=submit02.pic.es&noUDP&sock=schedd_3799303_6c8b>
+...
+040 (574887.000.000) 2025-03-11 22:43:55 Finished transferring input files
+...
+001 (574887.000.000) 2025-03-11 22:43:55 Job executing on host: <192.168.102.9:9618?addrs=192.168.102.9-9618+[2001-67c-1148-301--9]-9618&alias=tdm002.pic.es&noUDP&sock=startd_2346_bd45>
+	SlotName: slot1_4@tdm002.pic.es
+	CondorScratchDir = "/home/execute/dir_1995604"
+	Cpus = 1
+	Disk = 15975720
+	Memory = 102400
+...
+006 (574887.000.000) 2025-03-11 22:44:09 Image size of job updated: 33484
+	33  -  MemoryUsage of job (MB)
+	33484  -  ResidentSetSize of job (KB)
+...
+006 (574887.000.000) 2025-03-11 22:49:10 Image size of job updated: 43623292
+	8578  -  MemoryUsage of job (MB)
+	8783372  -  ResidentSetSize of job (KB)
+...
+006 (574887.000.000) 2025-03-11 22:59:10 Image size of job updated: 43623492
+	8578  -  MemoryUsage of job (MB)
+	8783372  -  ResidentSetSize of job (KB)
+...
+040 (574887.000.000) 2025-03-11 23:01:55 Started transferring output files
+...
+040 (574887.000.000) 2025-03-11 23:01:55 Finished transferring output files
+...
+005 (574887.000.000) 2025-03-11 23:01:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:21, Sys 0 00:02:41  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:21, Sys 0 00:02:41  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3111  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	3111  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.53        1         1 
+	   Disk (KB)            :    24    15728640  15975720 
+	   Memory (MB)          :  8578      102400    102400 
+
+	Job terminated of its own accord at 2025-03-11T22:01:55Z with exit-code 0.
+...
