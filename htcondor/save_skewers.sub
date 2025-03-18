@@ -1,0 +1,11 @@
+executable = /nfs/pic.es/user/m/mlokken/p1d-px-fft-weight/save_skewers.sh
+output = output-skewersave.out
+error = error-skewersave.err
+log = log-skewersave.log
+request_memory=100 GB
+request_cpus=1
++experiment="desi"
++WN_property="tdmem"
+Requirements = (Machine != "tdm001.pic.es")
+
+queue

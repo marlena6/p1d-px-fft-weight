@@ -1,0 +1,11 @@
+executable = /nfs/pic.es/user/m/mlokken/p1d-px-fft-weight/masked_p1d_hydrosim.sh
+output = output-p1dmask.out
+error = error-p1dmask.err
+log = log-p1dmask.log
+request_memory=100 GB
+request_cpus=1
++experiment="desi"
++WN_property="tdmem"
+Requirements = (Machine != "tdm001.pic.es")
+
+queue

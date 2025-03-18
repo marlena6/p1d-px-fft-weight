@@ -1,0 +1,66 @@
+Starting script
+Activated.
+Making skewer files for snapnum 0
+[1741692000.201354] [tdm002:417  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692000.201354] [tdm002:418  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692000.201357] [tdm002:419  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692000.201357] [tdm002:420  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692000.201353] [tdm002:421  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 1
+[1741692002.865006] [tdm002:438  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692002.865033] [tdm002:439  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692002.865032] [tdm002:440  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692002.865021] [tdm002:441  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692002.865019] [tdm002:442  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 2
+[1741692005.402630] [tdm002:459  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692005.402616] [tdm002:460  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692005.402641] [tdm002:461  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692005.402656] [tdm002:462  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692005.402681] [tdm002:463  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 3
+[1741692008.035794] [tdm002:484  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692008.035806] [tdm002:481  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692008.035823] [tdm002:482  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692008.035818] [tdm002:483  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692008.035831] [tdm002:480  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 4
+[1741692010.873064] [tdm002:503  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692010.873063] [tdm002:505  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692010.873079] [tdm002:501  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692010.873079] [tdm002:502  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692010.873075] [tdm002:504  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 5
+[1741692013.701587] [tdm002:522  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692013.701587] [tdm002:523  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692013.701584] [tdm002:524  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692013.701588] [tdm002:525  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692013.701660] [tdm002:526  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 6
+[1741692016.484188] [tdm002:546  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692016.484182] [tdm002:547  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692016.484197] [tdm002:545  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692016.484257] [tdm002:544  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 7
+[1741692019.275125] [tdm002:567  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692019.275143] [tdm002:568  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692019.275161] [tdm002:564  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692019.275161] [tdm002:565  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 8
+[1741692021.942546] [tdm002:589  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692021.942573] [tdm002:588  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692021.942580] [tdm002:585  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692021.942594] [tdm002:586  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692021.942601] [tdm002:587  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 9
+[1741692024.625211] [tdm002:606  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692024.625197] [tdm002:609  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692024.625230] [tdm002:607  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692024.625223] [tdm002:608  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692024.625226] [tdm002:610  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+Making skewer files for snapnum 10
+[1741692027.230154] [tdm002:627  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692027.230155] [tdm002:628  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692027.230165] [tdm002:629  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692027.230159] [tdm002:630  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
+[1741692027.230178] [tdm002:631  :0]          select.c:629  UCX  ERROR   no active messages transport to <no debug data>: self/memory - Destination is unreachable
