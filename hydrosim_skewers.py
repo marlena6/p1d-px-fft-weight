@@ -1,9 +1,8 @@
 import numpy as np
-from contamination import SiliconModel, SpikeModel
-from fake_spectra import spectra as spec
 import matplotlib.pyplot as plt
 
 def read_and_save_spectra(sk_dir, sk_fname, snap_num, axis, filesave, add_silicon=False, add_spike=False, mode='delta_k', Silicon=None, Spike=None, reduce_size=True):
+
     """ Function to read hydro simulation mock spectra and save them in np format with additional information.
     sk_dir (str): the directory of the saved mock spectra 
     filesave (str): the file to save into
@@ -11,7 +10,9 @@ def read_and_save_spectra(sk_dir, sk_fname, snap_num, axis, filesave, add_silico
     mode (str): 'delta_x', 'delta_k'.
     """
     
-    
+    from fake_spectra import spectra as spec
+    from contamination import SiliconModel, SpikeModel
+
     # reconstruct filename with skewers
     print("will load skewers from file {} in directory {}".format(sk_fname,sk_dir))
     # create Spectra object from fake_spectra repo
