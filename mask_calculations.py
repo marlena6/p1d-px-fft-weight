@@ -140,24 +140,6 @@ def skewer_offset_and_pad(skewer_grid, rng, return_mask=True, randomize_skewer_l
         return new_skewer_grid*mask, mask
     else:
         return new_skewer_grid*mask
-
-def calculate_norms(resolution, weights, L):
-    '''
-    calculates the normalization factor C_m, the scaling for the estimated P1D A_m (not including N_q division), and the squared average FFT weights W 
-    If resolution is not constant, C_m and A_m will differ for every m
-    resolution (np.ndarray): vector length N
-    W (np.ndarray): vector length N, average FFT of the weights
-    Returns:
-    C_m (np.ndarray): vector of length N
-    A_m (np.ndarray): L/sum(WR^2), normalization factor for estimator
-    W (np.ndarray): average of square of the FFT of the weights
-    
-    '''
-    W = calculate_W(weights)
-    N  = resolution.size
-    R2 = resolution.real**2 + resolution.imag**2
-    denom = np.fft.ifft(np.fft.fft(W)* np.fft.fft(R2))
-    return N**2*R2/denom, np.absolute(L/denom), W
     
 def calculate_W(weights):
     '''
@@ -171,13 +153,20 @@ def calculate_W(weights):
     
     
 def calculate_window_matrix(weights, resolution, L):
-    C, estnorm, W = calculate_norms(resolution, weights, L)
-    N = C.size
+    '''
+    resolution (np.ndarray): vector length N
+    W (np.ndarray): vector length N, average FFT of the weights
+    Returns:
+    '''
+    W = calculate_W(weights)
     R2 = resolution.real**2 + resolution.imag**2
-    window_matrix = np.zeros((N,N), dtype=np.complex_)
+    denom = np.absolute(np.fft.ifft(np.fft.fft(W)* np.fft.fft(R2)))
+    estnorm = np.absolute(L/denom)
+    N = estnorm.size
+    window_matrix = np.zeros((N,N))
     for m in range(N):
         for n in range(N):
-            window_matrix[m,n] = C[m]/(N**2*R2[m]) * W[m-n]*R2[n]
+            window_matrix[m,n] = W[m-n]*R2[n] / denom[m]
     return window_matrix, estnorm, W
 
 def masked_theory(window_matrix, model):
