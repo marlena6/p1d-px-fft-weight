@@ -155,8 +155,12 @@ def calculate_W(weights):
 def calculate_window_matrix(weights, resolution, L):
     '''
     resolution (np.ndarray): vector length N
-    W (np.ndarray): vector length N, average FFT of the weights
+    weights (np.ndarray): array N_q x N, the real-space pixel weights for each skewer
+    L (float): length of skewers
     Returns:
+    window_matrix (np.ndarray): Real-valued NxN window matrix
+    estnorm (np.ndarray): vector length N, normalization for the estimated P1D (after averaging over N_q quasars)
+    W (np.ndarray): vector length N, average FFT of the weights 
     '''
     W = calculate_W(weights)
     R2 = resolution.real**2 + resolution.imag**2
@@ -170,5 +174,10 @@ def calculate_window_matrix(weights, resolution, L):
     return window_matrix, estnorm, W
 
 def masked_theory(window_matrix, model):
+    '''
+    Calculate the prediction for weighted P1D theory.
+    window_matrix (np.ndarray): Real-valued NxN window matrix, where N is FFT grid length
+    model (np.ndarray): Real-valued vector length N of the original theory model
+    '''
     return np.matmul(window_matrix, model)
     
