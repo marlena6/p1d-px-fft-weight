@@ -107,3 +107,49 @@ def bin_spectra(spectra, x_spectra, bin_size):
     binned_x_spectra = x_spectra.reshape(num_bins, bin_size).mean(axis=1)
 
     return binned_spectra, binned_x_spectra
+
+
+# modify all skewers such that they begin at random locations along the line-of-sight, and wrap around. All should be 1/2 length of box.
+def randomize_skewer_start(skewer_grid, rng):
+    nside = skewer_grid.shape[0]
+    Np = skewer_grid.shape[2]
+    new_skewer_length = Np//2
+    new_skewer_grid = np.zeros((nside, nside, new_skewer_length))
+    for i in range(nside):
+        for j in range(nside):
+            start = rng.integers(Np)
+            if start+new_skewer_length > Np:
+                remainder = new_skewer_length - (Np-start)
+                new_skewer_grid[i,j,:] = np.concatenate((skewer_grid[i,j,start:], skewer_grid[i,j,:remainder]))
+            else:
+                new_skewer_grid[i,j,:] = skewer_grid[i,j,start:start+new_skewer_length]
+    return new_skewer_grid, new_skewer_length
+
+# modify all skewers such that they are all only 1/2 length of box, start at random locations, and have zero padding elsewhere
+def skewer_offset_and_pad(skewer_grid, rng, return_mask=True, randomize_skewer_lengths=False):
+    mask = np.ones(skewer_grid.shape)
+    new_skewer_grid = np.ma.MaskedArray.copy(skewer_grid)
+    nside = skewer_grid.shape[0]
+    Np = skewer_grid.shape[2]
+    if not randomize_skewer_lengths:
+        pad_length = Np//3
+    for i in range(nside):
+        for j in range(nside):
+            pad_start = rng.integers(Np)
+            if randomize_skewer_lengths:
+                pad_length = rng.integers(int(Np//4), int(Np//1.5))
+            if pad_start + pad_length > Np:
+                remainder = pad_length - (Np-pad_start)
+                # new_skewer_grid[i,j,pad_start:] = 0
+                # new_skewer_grid[i,j,:remainder] = 0
+                mask[i,j,pad_start:] = 0
+                mask[i,j,:remainder] = 0
+            else:
+                # new_skewer_grid[i,j,pad_start:pad_start+pad_length] = 0
+                mask[i,j,pad_start:pad_start+pad_length] = 0
+    mask = np.asarray(mask)
+    if return_mask:
+        return new_skewer_grid*mask, mask
+    else:
+        return new_skewer_grid*mask
+    
